@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+	<script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script type="text/javascript" src="InitialiseFirebase.js"></script>
+	<script type="text/javascript" src="Login.js"></script>
+
+
+<body>
+
+	<div class="container mt-5"> 
+		<h1>Welcome to <span id="title">Visualearn</span></h1>
+		<hr>
+
+		<div id="firebaseui-auth-container"></div>
+		<div id="loader">Loading...</div>
+	</div>
+
+
+<style type="text/css">
+body{
+	background-image: url("bg.png");
+}
+
+
+ #title,h1 { 
+  font-size: 30px;
+  font-weight: 900;
+  background: linear-gradient(to right,#4A4E69 45%, #f72f4e 50%);
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -o-background-clip: text;
+  background-clip: text;
+  background-size:100%;
+  text-align: center;
+}
+
+</style>
+
+</body>
+</html>
