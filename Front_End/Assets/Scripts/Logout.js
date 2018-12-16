@@ -11,7 +11,7 @@ function action(){
         uid = user.uid;
       }else{
         uid = null;
-        window.location.replace("login.html");
+        window.location.replace("Assets/html/login.html");
       }
     });
 

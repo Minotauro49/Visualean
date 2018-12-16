@@ -1,9 +1,8 @@
 body {
   padding-top: 75px;
   font-family: Roboto, sans-serif;
-  background-image: url("bg.png");
+  background-image: url("../Img/bg.png");
 }
-
 
 #title { 
   font-size: 30px;
@@ -83,7 +82,7 @@ body {
 
 textarea{
   min-height: 200px;
-  background-image: url("Lined-Paper.jpg");
+  background-image: url("../Img/Lined-Paper.jpg");
 }
 
 
