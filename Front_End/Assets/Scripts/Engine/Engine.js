@@ -1,5 +1,7 @@
 
 $(document).ready(function () {
+  //https://www.quora.com/What-are-some-good-20-word-stories
+  $("textarea").val("Finally reached 1000 friends on Facebook. As he closed his laptop at 2 am midnight, he felt the silence of the night echo the loneliness within him.");
     $("#search").click(function() {
       getdata();
     });
